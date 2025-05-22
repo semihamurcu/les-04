@@ -11,10 +11,18 @@
     state: started
     enabled: true
 
+- name: Install pymysql from apt
+  apt:
+    name: python3-pymysql
+    state: present
+    update_cache: yes
+
+
 - name: Create MySQL user
   mysql_user:
+    login_unix_socket: /var/run/mysqld/mysqld.sock
     name: "{{ mysql_user }}"
     password: "{{ mysql_user_password }}"
-    priv: '*.*:ALL'
-    host: '%'
+    priv: "*.*:ALL"
+    host: "%"
     state: present
