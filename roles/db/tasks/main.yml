@@ -17,7 +17,6 @@
     state: present
     update_cache: yes
 
-
 - name: Create MySQL user
   mysql_user:
     login_unix_socket: /var/run/mysqld/mysqld.sock
