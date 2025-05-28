@@ -2,6 +2,11 @@
 
 In deze opdracht zijn twee VM's geconfigureerd via een Ansible-playbook. Eén VM fungeert als webserver (met Apache, PHP en PHP-MySQL), de andere als databaseserver (MySQL). Hostnamen en IP-adressen worden automatisch toegevoegd aan een inventory-bestand. Rollen zijn opgesplitst in Ansible roles met gebruik van handlers en variabelen (group_vars, inventory variabelen en playbook variabelen).
 
+## Bron
+
+https://chatgpt.com/share/682ec4ed-40bc-8002-ac3d-00949e656a4a
+
+
 ## Wat is gerealiseerd?
 
 - **Deploy 2 VM’s** via Terraform:  
