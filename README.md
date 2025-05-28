@@ -6,6 +6,11 @@ In deze opdracht zijn twee VM's geconfigureerd via een Ansible-playbook. Eén VM
 
 https://chatgpt.com/share/682ec4ed-40bc-8002-ac3d-00949e656a4a
 
+## Ansible Galaxy rollen
+
+https://galaxy.ansible.com/ui/standalone/roles/semihamurcu/web/
+https://galaxy.ansible.com/ui/standalone/roles/semihamurcu/db/
+
 
 ## Wat is gerealiseerd?
 
